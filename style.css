@@ -1,0 +1,37 @@
+/* Center everything and set a background */
+body {
+    text-align: center;
+    background-color: whitesmoke;
+    color: #eee;
+    font-family: Pacifico, sans-serif;
+    padding: 2rem;
+
+}
+/* Style the text */
+p {
+    font-size: 1 rem;
+    margin-bottom: 2rem;
+    color: black;
+  }  
+/* Style the heading */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+/* Style the photos */
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+img:hover {
+    transform: scale(1.05);
+}
